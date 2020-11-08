@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import { Page, Text, Card, Note, Code, Spacer } from '@geist-ui/react'
+import Head from "next/head";
+import { Page, Text, Card, Note, Code, Spacer } from "@geist-ui/react";
 
 export default function Home() {
   return (
@@ -19,5 +19,5 @@ export default function Home() {
         <Note type="success">This note details something important.</Note>
       </Card>
     </Page>
-  )
+  );
 }
